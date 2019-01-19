@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
+
+.navbar {
+  background: #0f1a41;
+  display: flex;
+  justify-content: space-around;
+  color: #edad1b;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.input {
+  width: 25vw;
+  height: 40px;
+  margin: 3px;
+}
+.button {
+  width: 7vw;
+  height: 46px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

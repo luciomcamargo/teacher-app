@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
+.content {
+  background: #f9f9f9;
+  display: grid;
+  grid-auto-rows: 1fr;
+  font-size: 2vw;
+  vertical-align: middle;
+}
+
+.list {
+  text-align: center;
+}
+.list:nth-child(odd) {
+  background: rgb(225, 228, 225);
+}

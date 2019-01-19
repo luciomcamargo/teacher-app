@@ -5,11 +5,13 @@
   grid-auto-rows: 1fr;
   font-size: 2vw;
   vertical-align: middle;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .list {
-  text-align: center;
+  margin-left: 12vw;
+  padding: 10px;
 }
-.list:nth-child(odd) {
-  background: rgb(225, 228, 225);
+.link:nth-child(odd) {
+  background: rgb(226, 229, 226);
 }

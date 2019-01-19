@@ -9,12 +9,18 @@ function Profile(props) {
   console.log(data);
   return (
     <div className='grid-profile'>
-      <img src={data.image} alt={data.name} />
+      <div className='img-profile'>
+        <img height={400} src={data.image} alt={data.name} />
+      </div>
       <ul className='student-data'>
-        <li>{data.name}</li>
-        <li>{data.description}</li>
-        <li>{data.price}</li>
-        <li>{data.name}</li>
+        <li>Name: {data.name}</li>
+        <li>Global Score: {data.score}</li>
+        <li>Grammar: {data.grammar}</li>
+        <li>Reading: {data.reading}</li>
+
+        <li>Listening: {data.listening}</li>
+        <li>Writing: {data.writing}</li>
+        <li>Comments: {data.comments}</li>
       </ul>
     </div>
   );

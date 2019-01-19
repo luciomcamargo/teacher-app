@@ -4,7 +4,11 @@ import './Results.css';
 
 function Results(props) {
   const students = props.data.map(el => (
-    <Link to={`/profile/${el.id}`}>
+    <Link
+      to={`/profile/${el.id}`}
+      className='link'
+      style={{ textDecoration: 'none' }}
+    >
       <div className='list'>{el.name}</div>
     </Link>
   ));

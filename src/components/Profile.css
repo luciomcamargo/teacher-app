@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
 .grid-profile {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 .student-data {
   display: flex;
-  align-items: center;
   flex-direction: column;
   list-style-type: none;
+  font-size: 2vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-left: 15vw;
+}
+.img-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  margin-left: 5vw;
+  margin-top: 1vw;
 }
